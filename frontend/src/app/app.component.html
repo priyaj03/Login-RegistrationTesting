@@ -1,0 +1,56 @@
+<div align="center">
+  <!-- <nav class="navbar navbar-expand-xl navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScC_UKJC_OphtSv4onsmimsE217OMBM4AeNA&usqp=CAU" style="height: 60px; width: 70px;">  <b style="color: darkslategray;">Hospital Management  |</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse show" id="navbarBasic">
+        <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="signUp">Admin Signup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="signUp">User Signup</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" routerLink="employee">Employee</a>
+          </li> -->
+        <!-- </ul>
+      </div>
+    </div>
+  </nav> -->
+  <nav id="navbar-scrollspy" class="navbar navbar-light bg-light px-3">
+    <a class="navbar-brand" href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScC_UKJC_OphtSv4onsmimsE217OMBM4AeNA&usqp=CAU" style="height: 60px; width: 70px;">  <b style="color: darkslategray;">  |  Hospital Management  |</b></a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="main"><i class="fa fa-home"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="admin-signup">Admin Signup</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="signUp">Doctor Signup</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="signUp">Patient Signup</a>
+      </li>
+      
+      <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="" role="button" aria-expanded="false">Dropdown</a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item"routerLink="admin-login">Admin Login</a></li>
+          <li><a class="dropdown-item"routerLink="login">Patient Login</a></li>
+          <li><a class="dropdown-item" routerLink="login">Doctor Login</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#three">three</a></li>
+        </ul>
+      </li> -->
+    </ul>
+  </nav>
+  <router-outlet></router-outlet>
+</div>
+<app-footer></app-footer>
